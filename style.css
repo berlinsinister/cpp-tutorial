@@ -1,0 +1,168 @@
+@media (max-width: 400px) {}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    font-family: 'Maven Pro', Arial, sans-serif;
+}
+
+.navbar, .navbar-right {
+    height: inherit;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#21232f, #3c323b, #b09095);
+    color: white;
+}
+
+.navbar {
+    width: 12%;
+    left: 0px;
+}
+
+.navbar-right {
+    width: 5%;
+    right: 0px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 30px;
+}
+
+.nav-header {
+    padding: 40px 30px 20px 30px;
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+.nav-header-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link {
+    padding: 15px 15px 15px 65px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.nav-link-right {
+    text-decoration: none;
+    color: white;
+    padding: 10px 0px;
+    display: inline-block;
+    font-size: 18pt;
+    opacity: 0.5;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link-right:hover {
+    opacity: 0.7;
+}
+
+.navbar .lnr {
+    font-size: 16pt;
+    position: absolute;
+    left: 30px;
+    top: 14px;
+    opacity: 0.6;
+}
+
+.main {
+    width: 83%;
+    margin-left: 12%;
+    padding: 30px 50px;
+}
+
+.photo {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.photo:hover {
+    opacity: 0.9;
+}
+
+img {
+    width: 100%;
+}
+
+.photo-text {
+    font-size: 9pt;
+    font-style: italic;
+    color: lightslategray;
+}
+
+.main-section {
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.main-header {
+    font-size: 16pt;
+    font-weight: bold;
+    margin: 10px 0px;
+    color: #21232f;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    line-height: 1.6;
+    padding: 10px;
+    color: lightslategray;
+}
+
+li .lnr {
+    margin-right: 5px;
+}
+
+.code-div, code {
+    border-radius: 3px;
+    font-family: 'Couriew New', monospace;
+    font-size: 9.5pt;
+}
+
+.code-div {
+    padding: 20px;
+    margin: 10px 0px;
+    width: 230px;
+    background-color: #efefef;
+    border-left: 5px solid #21232f;
+    color: #21232f;
+}
+
+code {
+    color: white;
+    padding: 4px 6px;
+    background-color: #21232f;
+}
+
+.copyright-link {
+    text-decoration: none;
+    background-color: #efefef;
+    border-left: 5px solid #4caf50;
+    border-radius: 3px;
+    padding: 10px 15px;
+    display: inline-block;
+    color: #21232f;
+}
